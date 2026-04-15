@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../assets/123.png'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -17,7 +18,8 @@ const Home = () => {
                                     <span class="nav-link active" aria-current="page" href="#">Home</span>
                                 </li>
                                 <li class="nav-item">
-                                    <span class="nav-link" href="#">Link</span>
+                                    <Link class="nav-link" to={'/todo'}>Todo </Link>
+
                                 </li>
                                 <li class="nav-item dropdown">
                                     <span class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -171,7 +173,7 @@ const Home = () => {
                     <ul>
                         <li>data 1</li>
                         <li>data 2</li>
-                        <li>data 3</li>
+                        <li>data 3</li>npm
                         <li>data 4</li>
                     </ul>
                 </div>
