@@ -19,7 +19,9 @@ const Home = () => {
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link" to={'/todo'}>Todo </Link>
-
+                                </li>
+                                <li class="nav-item">
+                                    <Link class="nav-link" to={'/login'}>login </Link>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <span class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
